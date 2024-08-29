@@ -1,6 +1,8 @@
 import pandas as pd
 from app.core.exceptions import FileValidationError
 
+#checking file type and reading files
+
 def validate_file_extension(filename: str):
     if not (filename.endswith('.csv') or filename.endswith('.xlsx')):
         raise FileValidationError()
