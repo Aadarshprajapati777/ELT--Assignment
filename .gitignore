@@ -16,7 +16,7 @@ VENV/
 *.sqlite3
 *.db
 .DS_Store
-
+.venv
 # FastAPI
 /app.log
 
